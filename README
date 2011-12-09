@@ -1,0 +1,12 @@
+This script enhances Issue browsing for Jira.
+And allows you to color Issues by status.
+
+
+Tested in:
+- FireFox with Greacemonkey
+- IE with Trixie
+- Chrome as native extension
+
+
+Current version tested only with JIRA v4.4
+Not works on Dashboard widgets.
