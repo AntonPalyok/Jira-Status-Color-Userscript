@@ -10,3 +10,13 @@ Tested in:
 
 Current version tested only with JIRA v4.4
 Not works on Dashboard widgets.
+
+
+--------------------------
+-- Possible Customization
+--------------------------
+Main configuration is placed in method initStatusColors().
+
+1) You can add your custom statuses to coloring by enhancing object statusColorSettings.statusColors.
+2) You can enable coloring by assignee by changing setting statusColorSettings.statusColors.colorByAssignee = true.
+3) You can add your custom assignee to coloring by enhancing object statusColorSettings.assigneeColors.
