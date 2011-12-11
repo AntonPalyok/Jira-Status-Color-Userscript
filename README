@@ -8,8 +8,9 @@ Tested in:
 - Chrome as native extension
 
 
+Note:
 Current version tested only with JIRA v4.4
-Not works on Dashboard widgets.
+To allow this script work with Dashboard Widgets you should add column "Status" to issues table.
 
 
 --------------------------
