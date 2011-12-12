@@ -3,7 +3,7 @@
 // @description     Script allows you to color Issues by status in JIRA
 // @namespace       https://github.com/AntonPalyok
 // @author          Anton Palyok
-// @version         1.2
+// @version         1.3
 // @include         */secure/IssueNavigator*
 // @include         */secure/QuickSearch*
 // @include         */browse/*
@@ -45,6 +45,8 @@
 	initStatusColors();
 	
 	// Color table with issues
+	var timerAttemptsCount = 0;
+	var timerAttemptsLimit = 10;
 	var issuesLoadTimer = setInterval(checkForIssueTableLoaded, 500);
 
 	// Color Status on Browse Issue page
@@ -55,9 +57,10 @@
 	// Helper functions
 
 	function checkForIssueTableLoaded() {
+		timerAttemptsCount++;
 		var issueRows = $("#issuetable .issuerow");
-
-		if (issueRows.length > 0) {
+		
+		if (issueRows.length > 0 || timerAttemptsCount == timerAttemptsLimit) {
 			clearInterval(issuesLoadTimer);
 			colorIssueTable(issueRows);
 		}

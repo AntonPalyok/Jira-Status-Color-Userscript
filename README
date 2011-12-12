@@ -10,7 +10,7 @@ Tested in:
 
 Note:
 Current version tested only with JIRA v4.4
-To allow this script work with Dashboard Widgets you should add column "Status" to issues table.
+To allow this script work with Dashboard Widgets you should add column "Status" in the widget settings.
 
 
 --------------------------
