@@ -1,5 +1,5 @@
 ﻿// ==UserScript==
-// @name            JIRA Status Color
+// @name            JIRA Status Color Userscript
 // @description     Script allows you to color Issues by status in JIRA
 // @namespace       https://github.com/AntonPalyok
 // @author          Anton Palyok
