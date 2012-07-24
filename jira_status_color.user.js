@@ -3,7 +3,7 @@
 // @description     Script allows you to color Issues by status in JIRA
 // @namespace       https://github.com/AntonPalyok
 // @author          Anton Palyok
-// @version         1.3
+// @version         1.4
 // @include         */secure/IssueNavigator*
 // @include         */secure/QuickSearch*
 // @include         */browse/*
@@ -125,6 +125,7 @@
 		var colorYellow = "#fff494";
 		var colorGrey = "#cccccc";
 		var colorRedBright = "#ff4550";
+		var colorViolet = "#e3b7eb";
 		var colorBlack = "#000000";
 	
 		statusColorSettings = {
@@ -133,7 +134,7 @@
 				{ name: "In Progress", color: colorBlue,  colorText: colorBlack },			
 				{ name: "Resolved",    color: colorGreen, colorText: colorBlack },
 				{ name: "Closed",      color: colorGrey,  colorText: colorBlack },
-				{ name: "Reopened",    color: colorRed,   colorText: colorBlack }
+				{ name: "Reopened",    color: colorViolet, colorText: colorBlack }
 			],
 			assigneeColors: [
 				{name: "Unassigned",   color: colorRedBright, colorText: colorBlack}
