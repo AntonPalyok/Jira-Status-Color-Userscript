@@ -1,6 +1,10 @@
 This script enhances Issue browsing for Jira.
 And allows you to color Issues by status.
 
+Note:
+Current version of userscript works with Jira v5.2+.
+For Jira v4.3 - 5.1 use userscript v1.4
+
 
 Tested in:
 - FireFox with Greacemonkey
@@ -9,7 +13,6 @@ Tested in:
 
 
 Note:
-Tested with JIRA v4.3+
 To allow this script work with Dashboard Widgets you should add column "Status" in the widget settings.
 
 
