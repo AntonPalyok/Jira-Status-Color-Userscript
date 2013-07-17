@@ -2,7 +2,8 @@ This script enhances Issue browsing for Jira.
 And allows you to color Issues by status.
 
 Note:
-Current version of userscript works with Jira v5.2+.
+Current version of userscript works with Jira v6.0.
+For Jira v5.2 use userscript v2.0
 For Jira v4.3 - 5.1 use userscript v1.4
 
 
